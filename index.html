@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Moje Airbnb nemovitosti - propočet výdělku</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="topbar">
+      <svg class="logo" viewBox="0 0 64 64" fill="none" aria-label="logo">
+        <circle cx="32" cy="32" r="29" stroke="#ffffff" stroke-width="2.5"/>
+        <circle cx="32" cy="32" r="22" stroke="rgba(255,255,255,.35)" stroke-width="1"/>
+        <g class="needle">
+          <polygon points="32,11 38.5,32 32,28.5 25.5,32" fill="#f5a623"/>
+          <polygon points="32,53 25.5,32 32,35.5 38.5,32" fill="#ffffff" opacity="0.9"/>
+        </g>
+        <circle cx="32" cy="32" r="3.2" fill="#ffffff"/>
+      </svg>
+      <div class="brand">Matěj Jíra<span>Reality a investice</span></div>
+    </div>
+    <h1>Moje Airbnb nemovitosti - propočet výdělku</h1>
+    <p class="lead">Jak by jednotlivé byty vydělávaly, kdybych je koupil a spravoval sám. Celý čistý zisk je můj, počítáno se vším všudy - hypotéka, úklid, energie, provoz.</p>
+    <div class="chips">
+      <div class="chip"><div class="n" data-count="19190" data-suffix=" Kč">~19 190 Kč</div><div class="l">nejvyšší čistý zisk / měs</div></div>
+      <div class="chip"><div class="n">až ~24 %</div><div class="l">roční ROI</div></div>
+      <div class="chip"><div class="n">75 %</div><div class="l">cílová obsazenost</div></div>
+      <div class="chip"><div class="n">5</div><div class="l">bytů v hledáčku</div></div>
+    </div>
+  </div>
+  <div class="blob a"></div><div class="blob b"></div>
+</header>
+
+<section class="wrap reveal">
+  <h2>Jak to počítám</h2>
+  <p class="sub">Konzervativně na příjmech, poctivě na nákladech. Žádné nafouknuté sliby.</p>
+  <div class="grid">
+    <div class="card hover"><div class="ic">⌂</div><h3>Spravuju sám</h3><p>Self-management, bez agentury a bez dělení zisku. Celý čistý výnos je můj - je to ale moje práce.</p></div>
+    <div class="card hover"><div class="ic">↑</div><h3>Obsazenost 75 %</h3><p>Cílová průměrná roční obsazenost. Při dobré správě, fotkách a cenotvorbě reálná v Praze.</p></div>
+    <div class="card hover"><div class="ic">↓</div><h3>Spíš nižší denní sazby</h3><p>Denní sazby beru raději opatrněji než tržní průměr, ať mě realita nepřekvapí.</p></div>
+    <div class="card hover"><div class="ic">∑</div><h3>Všechny náklady</h3><p>Hypotéka (90 %, 5 %, 30 let), úklid ~3 500 Kč, energie, fond oprav, pojištění, rezerva, poplatek platformě.</p></div>
+    <div class="card hover"><div class="ic">%</div><h3>10 % akontace</h3><p>Z vlastního dávám 10 %, zbytek hypotéka. ROI počítám z vložených peněz (akontace + zařízení).</p></div>
+    <div class="card hover"><div class="ic">+</div><h3>Bonus navíc</h3><p>K měsíčnímu zisku navíc roste jistina (~100 tis./rok) a hodnota bytu. To v zisku níže není.</p></div>
+  </div>
+</section>
+
+<section class="wrap reveal">
+  <h2>Moje byty v hledáčku</h2>
+  <p class="sub">Pět bytů, seřazeno podle čistého měsíčního zisku. Klikni na dlaždici pro detailní propočet i s živou kalkulačkou.</p>
+  <div class="tiles">
+    <a class="tile" href="vtunich.html">
+      <div class="band"><span class="tag">Nejvyšší zisk</span><div class="loc">Praha 2 - Nové Město</div><div class="nm">V tůních 1+kk</div></div>
+      <div class="body">
+        <div class="stat"><span>Cena</span><b>6 276 600 Kč</b></div>
+        <div class="stat"><span>Čistý zisk / měs</span><b class="amber">~19 190 Kč</b></div>
+        <div class="stat"><span>Roční ROI</span><b>~24 %</b></div>
+        <div class="go">Zobrazit propočet →</div>
+      </div>
+    </a>
+    <a class="tile amber" href="klimentska.html">
+      <div class="band"><span class="tag">Třída B, nízké energie</span><div class="loc">Praha 1 - Nové Město</div><div class="nm">Klimentská 1+kk</div></div>
+      <div class="body">
+        <div class="stat"><span>Cena</span><b>6 400 000 Kč</b></div>
+        <div class="stat"><span>Čistý zisk / měs</span><b class="amber">~17 010 Kč</b></div>
+        <div class="stat"><span>Roční ROI</span><b>~21 %</b></div>
+        <div class="go">Zobrazit propočet →</div>
+      </div>
+    </a>
+    <a class="tile" href="sazavska.html">
+      <div class="band"><span class="tag">Velký byt, nižší riziko</span><div class="loc">Praha 2 - Vinohrady</div><div class="nm">Sázavská 1+kk</div></div>
+      <div class="body">
+        <div class="stat"><span>Cena</span><b>7 500 000 Kč</b></div>
+        <div class="stat"><span>Čistý zisk / měs</span><b class="amber">~16 310 Kč</b></div>
+        <div class="stat"><span>Roční ROI</span><b>~18 %</b></div>
+        <div class="go">Zobrazit propočet →</div>
+      </div>
+    </a>
+    <a class="tile amber" href="petrska.html">
+      <div class="band"><span class="tag">Tichý vnitroblok</span><div class="loc">Praha 1 - Nové Město</div><div class="nm">Petrská 1+kk</div></div>
+      <div class="body">
+        <div class="stat"><span>Cena</span><b>6 500 000 Kč</b></div>
+        <div class="stat"><span>Čistý zisk / měs</span><b class="amber">~14 140 Kč</b></div>
+        <div class="stat"><span>Roční ROI</span><b>~17 %</b></div>
+        <div class="go">Zobrazit propočet →</div>
+      </div>
+    </a>
+    <a class="tile" href="lobkovic.html">
+      <div class="band"><span class="tag">Nejlevnější byt</span><div class="loc">Praha 3 - Vinohrady</div><div class="nm">Lobkovic 1+kk</div></div>
+      <div class="body">
+        <div class="stat"><span>Cena</span><b>5 800 000 Kč</b></div>
+        <div class="stat"><span>Čistý zisk / měs</span><b class="amber">~13 590 Kč</b></div>
+        <div class="stat"><span>Roční ROI</span><b>~16 %</b></div>
+        <div class="go">Zobrazit propočet →</div>
+      </div>
+    </a>
+  </div>
+</section>
+
+<section class="wrap reveal">
+  <div class="fair">
+    <h2>Co k zisku ještě počítat</h2>
+    <p style="font-size:16px;color:#33433c;margin-top:8px">Čísla výše jsou čistý měsíční cashflow před zdaněním. K tomu mi jako majiteli navíc přibývá:</p>
+    <div class="split">
+      <div class="who"><h4>Roste mi majetek</h4><li>Umořování jistiny hypotéky ~100 tis./rok (a časem víc)</li><li>Růst ceny bytu, historicky ~3-5 %/rok v Praze</li></div>
+      <div class="who"><h4>Na co myslet</h4><li>Daň z příjmu (Airbnb = živnost), nastavit s účetním</li><li>Regulace krátkodobých pronájmů, hlavně v Praze 1</li><li>Self-management je čas a práce, ne pasivní příjem</li></div>
+    </div>
+  </div>
+</section>
+
+<div class="foot wrap">Připravil Matěj Jíra pro vlastní potřebu. Orientační propočet z tržních dat (AirROI, cenové mapy Praha, 06/2026). Self-management, celý zisk vlastní. Finální čísla ověřit u konkrétního bytu.</div>
+
+<script src="app.js"></script>
+</body>
+</html>
