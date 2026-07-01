@@ -65,6 +65,16 @@ p.lead{font-size:19px;color:#d3eee4;margin-top:18px;max-width:680px}
 .tile .stat b.amber{color:var(--amber-dark)}
 .tile .go{margin-top:14px;display:inline-flex;align-items:center;justify-content:center;gap:8px;background:var(--amber);color:#3a2705;font-weight:800;font-size:15px;padding:13px;border-radius:13px;transition:background .15s}
 .tile:hover .go{background:#ffb733}
+.tile .date{font-size:12px;color:var(--muted);display:flex;align-items:center;gap:7px;margin-top:2px}
+.badge-new{display:inline-block;background:#ff6b4a;color:#fff;font-size:10.5px;font-weight:800;letter-spacing:.4px;padding:2px 8px;border-radius:20px;text-transform:uppercase}
+.updated{margin-left:auto;color:#eafff7;font-size:13px;font-weight:600;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.22);padding:7px 14px;border-radius:20px;white-space:nowrap}
+.removed{margin-top:20px;border:1px solid var(--line);border-radius:16px;padding:18px 22px;background:var(--card)}
+.removed h4{font-size:15px;margin-bottom:6px}
+.removed .rsub{font-size:13px;color:var(--muted);margin-bottom:12px}
+.removed .ri{display:flex;justify-content:space-between;align-items:baseline;font-size:14px;color:var(--muted);padding:9px 0;border-bottom:1px solid var(--line);gap:10px}
+.removed .ri:last-child{border-bottom:0}
+.removed .ri .nm2{color:var(--ink);font-weight:600;text-decoration:line-through}
+.removed .ri .rdate{white-space:nowrap;font-size:12.5px}
 
 .step{display:flex;gap:18px;align-items:flex-start;padding:18px 0;border-bottom:1px solid var(--line)}
 .step:last-child{border-bottom:0}
